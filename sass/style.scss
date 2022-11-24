@@ -1,0 +1,23 @@
+.btn{
+    width: 75px;
+    padding: 10px 0px;
+    border-radius:20px;
+    display: block;
+    margin-top: 10px;
+
+    //Herança
+    &.btn-purple{
+        background-color: purple;
+        color: white;
+    }
+
+    &.btn-yellow{
+        background-color: yellow;
+        color: black;
+    }
+
+    &.btn-blue{
+        background-color: blue;
+        color: white;
+    }
+}
